@@ -1,0 +1,14 @@
+/*color scheme
+#ffa69e(coral), #faf3dd(yellow), #b8f2e6(foam green), #aed9e0(light blue), #5e6472(black)*/
+
+header {
+    background-image: url("coffeeshop.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+img {
+    height:40%;
+    width:40%;
+}
