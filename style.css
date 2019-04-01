@@ -1,14 +1,112 @@
 /*color scheme
 #ffa69e(coral), #faf3dd(yellow), #b8f2e6(foam green), #aed9e0(light blue), #5e6472(black)*/
 
+
 header {
-    background-image: url("coffeeshop.jpg");
+    background-image:url("coffeeshop.jpg") ;
     height: 600px;
     width: 100%;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
     background-size: cover;
+    /*text color white*/
+    color:white;
+    text-align:center;
+    
+}
+
+
+.promo {
+    background-image: url("promo.jpg");
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*text color white*/
+}
+
+h1{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+
+h3{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+
+h4{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+
+h5{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+
+p{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+
+span{
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
 img {
-    height:40%;
-    width:40%;
+    height:100%;
+    width:100%;
+}
+
+
+
+.promo{
+    text-align:center;    
+}
+
+.menu {
+    text-align:center;
+}
+.menu .inner {
+    background-color: white;
+    border-radius: 35px;
+}
+.menu .box {
+    padding: 20px 20px;
+}
+
+.menu img {
+    border-radius: 35px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+
+.team {
+    text-align:center;    
+}
+
+.contact .input-group {
+    margin-bottom: 25px;
+}
+
+.contact i {
+    padding: 15px;
+}
+
+.contact textarea {
+    height:10px;
+    width:100%;
+}
+
+.contact .btn {
+    width:100%;
 }

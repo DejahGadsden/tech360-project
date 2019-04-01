@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<body style="background-color:#f3f8ff">  
 <head>
     <title>Bella's Frappe</title>
     <!--link-->
@@ -11,7 +12,7 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:gray;">
       <a class="navbar-brand" href="#">
       <!--logo would go here with a <img>-->
       Bella's Frappe
@@ -22,10 +23,11 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
+            
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#menu">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,17 +57,14 @@
         <h4>Slogan</h4>
       </div>
     </header>
-    
-    <!--promo-->
+        <!--promo-->
     <section class="promo">
-      <h1>Today's Specials</h1>
-      <p>for a price of $$$ get a drink and a snack</p>
+      <h1 id=today>Today's Specials</h1>
+      <p>For $4.00, get any espresso with a croissant!</p>
       <div class="row">
         <div class="col-md-6">
-          <img src='' height="698px" width="698px"></img>
-        <!--img would go here--> 
-        <p>Description</p>
-        <p>Flavors</p>
+          
+        <!--img would go here--
         </div>
         <div class="col-md-6">
         <!--img would go here-->  
@@ -74,43 +73,143 @@
     </section>
     
        <!--Menu-->
-      <section>
+      <section id="menu">
         <h3>Menu</h3>
-        <div class="row">
-          <div class="col-4">
-            <h5>Hot Drinks</h5>
-            <img src="https://journalbitcoin.com/wp-content/uploads/2019/01/Hot-Drink.jpg"/>
-            <p>
-              caffe latte      3.15
-            </p>
-            <p>
-              cappuccino       3.15
+        <div class="row menu">
+          <div class="col-4 box">
+            <div class="inner">
+              <h5>Hot Drinks</h5>
+              <img src="https://journalbitcoin.com/wp-content/uploads/2019/01/Hot-Drink.jpg"/>
+               <p>
+                 Latte-----------4.50
+               </p>
+               <p>
+                 Cappuccino-------4.50
+                </p>
+                <p>
+                 Mocha------------3.50
+                </P>
+                <p>
+                 Cafe Americano---4.50
+                </p>
+                <p>
+                 Hot Chocolate----3.50
+                </p>
+              </div>  
+          </div>
+          <div class="col-4 box">
+            <div class="inner">
+              <h5>Cold Drinks</h5>
+              <img src="https://www.diegocoquillat.com/wp-content/uploads/2018/08/El-cafe-Cold-Brew-conquista-las-cartas-de-los-restaurantes.jpg"></img>
+              <p>
+                Iced Coffee--------4.00
               </p>
               <p>
-              caffe mocha      3.50
-              </P>
-              <p>
-              white chocolate mocha
+                Iced Latte---------4.00
               </p>
+              <p>
+                Iced Macchiato------4.00
+              </p>
+              <p>
+                Tea/Lemonade-------1.50
+              </p>
+              <p>
+                Bottled Drinks-----3.00
+              </p>
+            </div>
           </div>
-          <div class="col-4">
-            <h5>Cold Drinks</h5>
-            <img src="https://www.diegocoquillat.com/wp-content/uploads/2018/08/El-cafe-Cold-Brew-conquista-las-cartas-de-los-restaurantes.jpg"></img>
-            <p>
-              
-            </p>
-            
-            
-        
-          </div>
-          <div class="col-4">
-            <h5>Food</h5>
-            <img src="https://letthebakingbegin.com/wp-content/uploads/2018/07/White-Chocolate-Raspberry-Macarons-4.jpg"></img>
-            
+          <div class="col-4 box">
+            <div class="inner">
+              <h5>Food</h5>
+              <img src="https://letthebakingbegin.com/wp-content/uploads/2018/07/White-Chocolate-Raspberry-Macarons-4.jpg">
+              <p>
+                Macaroons--------3.00
+              </p>
+              <p>
+                Croissant--------1.50
+              </p>
+              <p>
+                Muffin-----------2.00
+              </p>
+              <p>
+                Bagel w/ spread--2.00
+              </p>
+              <p>
+                
+              </p>
+            </div>
             <!--images-->
           </div>
         </div>
       </section>    
+      
+      <p>
+        Coffee Flavors: French Vanilla, Caramel, Hazelnut, Mocha, and Cinnamon.
+      </p>
+      <p>
+        Spreads: Butter, Cream Cheese, Strawberry Cream Cheese, Grape Jelly
+      </p>
+    
+          <br>
+          <br>
+    
+    <!--team section-->
+     <section class="team container">
+        <h1>Our Team</h1>
+        <!--row for images-->
+        <div class="row">
+          <!--sam-->
+          <div class="col-md-3">
+            <img src=""></img>
+          </div>
+          <!--hector-->
+           <div class="col-md-3">
+            <img src=""></img>
+          </div>
+          <!--jane-->
+           <div class="col-md-3">
+            <img src=""></img>
+          </div>
+          <!--julia-->
+          <div class="col-md-3">
+            <img src=""></img>
+          </div>
+         
+          
+        </div>
+        
+        <!--row for info-->
+        <div class="row">
+          <!--sam-->
+          <div class="col-md-3">
+            <h3>Sam</h3>
+            <span><strong>Founder</strong></span>
+            <p>Our founder, Sam, grew up in New York and makes sure that our customers feel at home and up to date, constantly bringing updates and ideas to <em>Bella's Frappe</em></p>
+          </div>
+          <!--hector-->
+           <div class="col-md-3">
+            <h3>Hector</h3>
+            <span><strong>Co-Founder</strong></span>
+            <p>The Co-Founder and best friend of Sam, Hector, aids in the creative thinking process</p>
+          </div>
+          <!--jane-->
+           <div class="col-md-3">
+            <h3>Jane</h3>
+            <span><strong>Manager</strong></span>
+            <p>Jane oversees the shop to ensure that the customers have the best time at <em>Bella's Frappe</em></p>
+          </div>
+          <!--julia-->
+          <div class="col-md-3">
+            <h3>Julia</h3>
+            <span><strong>Social Media Director</strong></span>
+            <p>Julia keeps our customers notified with the new flavors and items we have at <em>Bella's Frappe</em></p>
+          </div>
+        </div>
+      </section>
+      
+    
+    
+    
     
     
     
@@ -118,7 +217,7 @@
     <!--contact-->
     <section class="contact container">
         <h1>Contact</h1>
-        <p>Leave us a message, we will have someone get back to you as fast as you can say the word <i>"coffee"</i></p>
+        <p>Leave us a message, we will have someone get back to you as fast as you can say the word<i>"coffee"</i></p>
         <div class="row">
           <!--username,email,phone-->
           <div class="col-md-6">
@@ -201,13 +300,21 @@
             <div class="input-group mb-3">
               <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
               <!--change button color-->
-              <button type="button" class="btn btn-info">subcribe</button>
+              <button type="button" class="btn btn-secondary">subcribe</button>
             </div>
           </div>
         </div>
       </footer>
+      <footer>
+        <p> Bella Frappe
+            73 Pacific St. 
+            Forest Hills, NY 11375
+       </p>
+       <p>
+         Bellacafe@gmail.com
+       </p>
+      </footer>
       
-
 
 
 
