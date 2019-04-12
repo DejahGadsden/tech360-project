@@ -6,7 +6,7 @@ header {
     background-image:url("coffeeshop.jpg") ;
     height: 600px;
     width: 100%;
-    /* Set background image to fixed (don't scroll along with the page) */
+    /* Set backgrsound image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
     /* Center the background image */
     background-position: center;
@@ -19,9 +19,25 @@ header {
     
 }
 
+#logo{
+    height:50%;
+    width:50%;
+}
+
+#today{
+    color:white;
+}
+
+#deal {
+    color:white;
+}
+
+
 
 .promo {
     background-image: url("promo.jpg");
+    height: 400px;
+    width: 100%;
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
     /* Center the background image */
@@ -86,12 +102,54 @@ img {
 .menu img {
     border-radius: 35px;
     padding: 20px; 
-    width: 200px;
-    height: 150px; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.dining{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .team {
     text-align:center;    
+}
+
+.team {
+    text-align:center;
+}
+.team .inner {
+    background-color: white;
+    border-radius: 35px;
+}
+.team .box {
+    padding: 20px 20px;
+}
+
+.team img {
+    border-radius: 35px;
+    padding: 20px; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#hoursimg{
+    height:50%;
+    width:50%;
+}
+
+.trusted_by img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.trusted_by .words{
+    text-align: center;
 }
 
 .contact .input-group {
@@ -110,3 +168,4 @@ img {
 .contact .btn {
     width:100%;
 }
+
